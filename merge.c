@@ -21,7 +21,7 @@ void merge(int a[],int mid,int low,int high)
     i=low;
     j=mid+1;
     k=low;  // MISTAKE
-    while(i<mid && j<high)
+    while(i<=mid && j<=high)
     {
         if(a[i]<a[j])
         {
